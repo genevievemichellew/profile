@@ -1,0 +1,102 @@
+.container {
+  width: 700px;
+  margin: 40px auto;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+    margin: 40px auto;
+  }
+}
+
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+    margin: 40px auto;
+  }
+}
+
+
+body {
+  background: black;
+  font-family: 'Nunito', sans-serif;
+  color: white;
+  font-size: 16px;
+  font-weight: lighter;
+  line-height: 2;
+  text-align: center;
+}
+
+h1 {
+  color: white;
+  font-size: 36px;
+  font-weight: bold;
+  letter-spacing: 2px;
+}
+
+h2 {
+  color: rgb(11, 235, 11);
+  font-size: 24px;
+  font-weight: bold;
+  letter-spacing: 2px
+}
+
+a {
+  text-decoration: none;
+  color: white;
+}
+
+a:hover {
+  text-decoration: underline;
+  color: rgb(11, 235, 11);
+}
+
+.btn-green:hover {
+  background: rgb(11, 235, 11);
+  color: black;
+}
+
+.img-circle {
+  border-radius: 50%;
+}
+
+.card-white {
+  margin: 20px 0px;
+  padding: 30px;
+  background: rgb(40, 40, 40);
+  border: 0.3px solid rgba(100, 99, 99, 0.486);
+  border-radius: 8px;
+  box-shadow: 8px 8px 18px rgb(35 194 17 / 24%);
+  text-align: center;
+}
+
+.list-inline > li {
+  list-style: none;
+  display: inline-block;
+  margin: 0px 40px 0px 0px;
+  padding: 0px 4px;
+}
+
+i {
+  font-size: 48px;
+}
+
+.btn-green {
+  background:  whitesmoke;
+  color: black;
+  font-weight: 650;
+  padding: 8px 20px;
+  margin: 10px 10px;
+  border-radius: 4px;
+}
